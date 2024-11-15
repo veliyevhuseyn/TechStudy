@@ -371,6 +371,7 @@ h2{
     align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 10px;
+    
 }
 .team-mem{
     width: 100%;
@@ -379,17 +380,23 @@ h2{
     cursor: pointer;
     transition: 0.5s all ease;
     filter: grayscale(100%);
+    
 }
 .team-mem:hover{
     transform: translateY(-15px);
     filter: none;
 }
+
 .team-mem h4,p{
    
     margin: 8px;
 }
-.team-page img{
+.team-page img{ 
     border-radius: 50%;
+}
+
+.team-mem a{
+    text-decoration: none;
 }
 
 
