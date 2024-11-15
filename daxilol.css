@@ -1,0 +1,38 @@
+
+.registr1{
+    width: 95%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--base-color);
+    border-radius: 16px;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 0 3px 10px rgba(0 0 0/0.2);
+
+}
+
+.registr1 .container{
+    width: 600px;
+}
+a{
+    text-decoration: none;
+}
+.registr1 .btn{
+    background-color: #a8d901;
+    padding:  10px 25px;
+    
+}
+.form-floating{
+    position: relative;
+}
+#togglePassword {
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 20px;
+    color: #888;
+  }
